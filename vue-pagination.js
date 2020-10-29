@@ -1,6 +1,6 @@
 module.exports = {
     template: '<nav :class="navClass" v-show="visible">' +
-        '<ul :class="'pagination '+size" >' +
+        '<ul class="pagination" :class="size">' +
             '<li v-if="pagination.current_page > 1">' +
                 '<a href="#" aria-label="Previous" @click.prevent="changePage(1)">' +
                     '<span aria-hidden="true">First</span>' +
